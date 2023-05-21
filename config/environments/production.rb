@@ -40,12 +40,6 @@ Rails.application.configure do
   # config.action_dispatch.x_sendfile_header = "X-Sendfile" # for Apache
   # config.action_dispatch.x_sendfile_header = "X-Accel-Redirect" # for NGINX
 
-  # change the server listening url and port (found using bard)
-  config.action_dispatch.default_url_options = {
-    host: '0.0.0.0',
-    port: 3000
-  }
-
   # Store uploaded files on the local file system (see config/storage.yml for options).
   config.active_storage.service = :local
 
